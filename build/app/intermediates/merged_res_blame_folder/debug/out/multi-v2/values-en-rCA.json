@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.kakaomapuse.app-mergeDebugResources-27:/values-en-rCA/values-en-rCA.xml",
+            "outputFile": "com.example.kakaomapuse.app-mergeDebugResources-36:/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
-                    "source": "/Users/yeonsoo/.gradle/caches/transforms-3/1584e21696ac48532567a79f1e324aa1/transformed/browser-1.5.0/res/values-en-rCA/values-en-rCA.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,153,250,359",
-                        "endColumns": "97,96,108,98",
-                        "endOffsets": "148,245,354,453"
-                    },
-                    "to": {
-                        "startLines": "9,10,11,12",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "773,871,968,1077",
-                        "endColumns": "97,96,108,98",
-                        "endOffsets": "866,963,1072,1171"
-                    }
-                },
-                {
-                    "source": "/Users/yeonsoo/.gradle/caches/transforms-3/fac84cd5ecf1ec88a8c98571217c9350/transformed/core-1.13.1/res/values-en-rCA/values-en-rCA.xml",
+                    "source": "/Users/yeonsoo/.gradle/caches/transforms-3/f41476b6df1d004d92c59b9e1ffb379a/transformed/core-1.13.1/res/values-en-rCA/values-en-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -30,11 +13,38 @@
                         "endOffsets": "146,248,347,446,550,652,768,869"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,13",
+                        "startLines": "4,5,6,7,8,9,10,15",
                         "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,151,253,352,451,555,657,1176",
+                        "startOffsets": "281,377,479,578,677,781,883,1402",
                         "endColumns": "95,101,98,98,103,101,115,100",
-                        "endOffsets": "146,248,347,446,550,652,768,1272"
+                        "endOffsets": "372,474,573,672,776,878,994,1498"
+                    }
+                },
+                {
+                    "source": "/Users/yeonsoo/.gradle/caches/transforms-3/6b24745faf87ad2e679beee4bb21002f/transformed/browser-1.5.0/res/values-en-rCA/values-en-rCA.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,153,250,359",
+                        "endColumns": "97,96,108,98",
+                        "endOffsets": "148,245,354,453"
+                    },
+                    "to": {
+                        "startLines": "11,12,13,14",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "999,1097,1194,1303",
+                        "endColumns": "97,96,108,98",
+                        "endOffsets": "1092,1189,1298,1397"
+                    }
+                },
+                {
+                    "source": "/Users/yeonsoo/.gradle/caches/transforms-3/be7f94af917da364eaf769326b162494/transformed/jetified-credentials-1.2.0-rc01/res/values-en-rCA/values-en-rCA.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,167",
+                        "endColumns": "111,113",
+                        "endOffsets": "162,276"
                     }
                 }
             ]

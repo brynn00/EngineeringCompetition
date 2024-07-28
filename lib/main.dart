@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
-import 'kakao_map_test.dart';
+//import 'kakao_map_test.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'login.dart'; // 로그인 페이지 경로에 맞게 수정
+
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await dotenv.load(fileName: ".env");	// 추가
-  //print(dotenv.env['KAKAO_MAP_KEY']);
+  await Firebase.initializeApp();
+  await dotenv.load(fileName: ".env");
 
   runApp(const MyApp());
 }
@@ -19,10 +22,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-    
         primarySwatch: Colors.blue,
       ),
-      home: KakaoMapTest(),
+      //home: KakaoMapTest(),
+      home: LoginPage(), // 로그인 페이지로 설정
     );
   }
 }

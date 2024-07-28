@@ -1,3 +1,23 @@
+buildscript {
+    ext.kotlin_version = '1.9.0' // 최신 Kotlin 버전으로 업데이트
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.4.2'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.google.gms:google-services:4.4.2'
+    }
+}
+
+plugins {
+    // 파이어베이스 연동하면서 설정  
+    // Add the dependency for the Google services Gradle plugin
+    id 'com.google.gms.google-services' version '4.4.2' apply false
+}
+
 allprojects {
     repositories {
         google()
@@ -16,3 +36,5 @@ subprojects {
 tasks.register("clean", Delete) {
     delete rootProject.buildDir
 }
+
+

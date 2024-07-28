@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.kakaomapuse.app-mergeDebugResources-27:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.example.kakaomapuse.app-mergeDebugResources-36:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/yeonsoo/dev/FORYS-1/2024-07-22/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/yeonsoo/EngineeringCompetition/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
