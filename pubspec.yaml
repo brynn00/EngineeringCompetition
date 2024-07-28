@@ -1,0 +1,39 @@
+name: kakaomap_with_ai
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  kakaomap_webview: ^0.6.2
+  webview_flutter: ^3.0.4
+  http: ^0.13.3
+  
+  url_launcher: ^6.1.10  # 최신 버전으로 업데이트할 수 있습니다
+  flutter_dotenv: ^5.1.0
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - .env
+    
+
+  fonts:
+    - family: Cafe24Supermagic
+      fonts:
+        - asset: assets/fonts/Cafe24Supermagic-Regular-v1.0.otf
