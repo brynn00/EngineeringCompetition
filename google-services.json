@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "744016794906",
+    "project_id": "engineeringcompetition-9d2f6",
+    "storage_bucket": "engineeringcompetition-9d2f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744016794906:android:283cc9831b295fb02148a3",
+        "android_client_info": {
+          "package_name": "com.example.kakaomapuse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7whH_BVbmYBxdXm_bAitfQt0fLJjGdb0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

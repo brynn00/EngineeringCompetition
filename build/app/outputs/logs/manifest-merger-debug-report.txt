@@ -1,0 +1,776 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/yeonsoo/EngineeringCompetition/android/app/src/main/AndroidManifest.xml:6:5-40:19
+MERGED from [:cloud_firestore] /Users/yeonsoo/EngineeringCompetition/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:cloud_firestore] /Users/yeonsoo/EngineeringCompetition/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_auth] /Users/yeonsoo/EngineeringCompetition/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_auth] /Users/yeonsoo/EngineeringCompetition/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /Users/yeonsoo/EngineeringCompetition/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /Users/yeonsoo/EngineeringCompetition/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:url_launcher_android] /Users/yeonsoo/EngineeringCompetition/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-14:19
+MERGED from [:url_launcher_android] /Users/yeonsoo/EngineeringCompetition/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-14:19
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/4324ad5dedb53224fea7a287fe8fd9c7/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/4324ad5dedb53224fea7a287fe8fd9c7/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-analytics:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/c8d6c0c0cef9f84b7fce726b55a809ee/transformed/jetified-firebase-analytics-22.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/c8d6c0c0cef9f84b7fce726b55a809ee/transformed/jetified-firebase-analytics-22.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/653a4db389fe268353ed01e63cb8e014/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:29:5-41:19
+MERGED from [com.google.android.gms:play-services-measurement-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/653a4db389fe268353ed01e63cb8e014/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:29:5-41:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1460ae36b6387ac7b586b7e6d318c3d3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1460ae36b6387ac7b586b7e6d318c3d3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/0881bba60691c953597fedb9c2d806b2/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/0881bba60691c953597fedb9c2d806b2/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:28:5-73:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/yeonsoo/.gradle/caches/transforms-3/92511f81c416b07bbb7344fa250d2feb/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:23:5-42:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/yeonsoo/.gradle/caches/transforms-3/92511f81c416b07bbb7344fa250d2feb/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:23:5-42:19
+MERGED from [androidx.window:window:1.2.0] /Users/yeonsoo/.gradle/caches/transforms-3/d4a6ca5503a19dcea0f3b651be9acab7/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.window:window:1.2.0] /Users/yeonsoo/.gradle/caches/transforms-3/d4a6ca5503a19dcea0f3b651be9acab7/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/8ea7b6ba0a87dc7bdbcb39e011f9bee4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/8ea7b6ba0a87dc7bdbcb39e011f9bee4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/5eef1fb0c482aaa15c11d7f691888c45/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/5eef1fb0c482aaa15c11d7f691888c45/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/yeonsoo/.gradle/caches/transforms-3/4113b538478a42b5c994dc0e7f2efaff/transformed/jetified-play-services-fido-20.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/yeonsoo/.gradle/caches/transforms-3/4113b538478a42b5c994dc0e7f2efaff/transformed/jetified-play-services-fido-20.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/yeonsoo/.gradle/caches/transforms-3/98754411cd88d47793a844f5373ab02a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/yeonsoo/.gradle/caches/transforms-3/98754411cd88d47793a844f5373ab02a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/20a78825b106f16ed95a3baa5cf04575/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/20a78825b106f16ed95a3baa5cf04575/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/3e7759031c2868f8ee12c8e27727622a/transformed/jetified-play-services-measurement-sdk-22.0.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/3e7759031c2868f8ee12c8e27727622a/transformed/jetified-play-services-measurement-sdk-22.0.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.play:integrity:1.2.0] /Users/yeonsoo/.gradle/caches/transforms-3/88ced1afe82875d7c96ba1844a597845/transformed/jetified-integrity-1.2.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.2.0] /Users/yeonsoo/.gradle/caches/transforms-3/88ced1afe82875d7c96ba1844a597845/transformed/jetified-integrity-1.2.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/03beaa17857d868c569b72a44716541f/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/03beaa17857d868c569b72a44716541f/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1bd1bb67a75d1d89f69f2695cd12801e/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1bd1bb67a75d1d89f69f2695cd12801e/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/808f91fb490fd71bdc5a53890ee701a6/transformed/jetified-play-services-measurement-impl-22.0.2/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/808f91fb490fd71bdc5a53890ee701a6/transformed/jetified-play-services-measurement-impl-22.0.2/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/e494c493ac68f240abeea9eba644048b/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/e494c493ac68f240abeea9eba644048b/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/522eb581508ab5f6c392391565c845de/transformed/jetified-play-services-measurement-base-22.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/522eb581508ab5f6c392391565c845de/transformed/jetified-play-services-measurement-base-22.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/cc94d972f41c18033149c7fe1e5ec320/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/cc94d972f41c18033149c7fe1e5ec320/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/yeonsoo/.gradle/caches/transforms-3/ed2f9dda5d1792bcc8e3c2635084a74f/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/yeonsoo/.gradle/caches/transforms-3/ed2f9dda5d1792bcc8e3c2635084a74f/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/yeonsoo/.gradle/caches/transforms-3/2ff4ec815d75b1d1ce3bcb0a1af4f664/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/yeonsoo/.gradle/caches/transforms-3/2ff4ec815d75b1d1ce3bcb0a1af4f664/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/c0a008329697a6dda4f07229d5b55706/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/c0a008329697a6dda4f07229d5b55706/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/yeonsoo/.gradle/caches/transforms-3/8be979a2512668cd9310143e2e2e5bfb/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/yeonsoo/.gradle/caches/transforms-3/8be979a2512668cd9310143e2e2e5bfb/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.core:core:1.13.1] /Users/yeonsoo/.gradle/caches/transforms-3/f41476b6df1d004d92c59b9e1ffb379a/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /Users/yeonsoo/.gradle/caches/transforms-3/f41476b6df1d004d92c59b9e1ffb379a/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/091a16723a6e318b9f9d526240b917f7/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/091a16723a6e318b9f9d526240b917f7/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/yeonsoo/.gradle/caches/transforms-3/34758bf094995e6c40090ba06b061f11/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/yeonsoo/.gradle/caches/transforms-3/34758bf094995e6c40090ba06b061f11/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/yeonsoo/.gradle/caches/transforms-3/8de579a6b3c05f0f7fe32997b098807f/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/yeonsoo/.gradle/caches/transforms-3/8de579a6b3c05f0f7fe32997b098807f/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yeonsoo/.gradle/caches/transforms-3/9951615a76436abc29116e2966a26f6d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yeonsoo/.gradle/caches/transforms-3/9951615a76436abc29116e2966a26f6d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /Users/yeonsoo/.gradle/caches/transforms-3/f41476b6df1d004d92c59b9e1ffb379a/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:name
+		INJECTED from /Users/yeonsoo/EngineeringCompetition/android/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /Users/yeonsoo/EngineeringCompetition/android/app/src/main/AndroidManifest.xml:1:1-52:12
+INJECTED from /Users/yeonsoo/EngineeringCompetition/android/app/src/main/AndroidManifest.xml:1:1-52:12
+INJECTED from /Users/yeonsoo/EngineeringCompetition/android/app/src/main/AndroidManifest.xml:1:1-52:12
+INJECTED from /Users/yeonsoo/EngineeringCompetition/android/app/src/main/AndroidManifest.xml:1:1-52:12
+MERGED from /Users/yeonsoo/EngineeringCompetition/android/app/src/main/AndroidManifest.xml:1:1-52:12
+MERGED from [:cloud_firestore] /Users/yeonsoo/EngineeringCompetition/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_auth] /Users/yeonsoo/EngineeringCompetition/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_core] /Users/yeonsoo/EngineeringCompetition/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:url_launcher_android] /Users/yeonsoo/EngineeringCompetition/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-16:12
+MERGED from [:webview_flutter_android] /Users/yeonsoo/EngineeringCompetition/build/webview_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/4324ad5dedb53224fea7a287fe8fd9c7/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-analytics:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/c8d6c0c0cef9f84b7fce726b55a809ee/transformed/jetified-firebase-analytics-22.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/653a4db389fe268353ed01e63cb8e014/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:17:1-43:12
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1460ae36b6387ac7b586b7e6d318c3d3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/0881bba60691c953597fedb9c2d806b2/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:17:1-75:12
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/yeonsoo/.gradle/caches/transforms-3/be7f94af917da364eaf769326b162494/transformed/jetified-credentials-1.2.0-rc01/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/yeonsoo/.gradle/caches/transforms-3/92511f81c416b07bbb7344fa250d2feb/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/yeonsoo/.gradle/caches/transforms-3/70a534401139ee2c4829f66a77b65f1f/transformed/jetified-googleid-1.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/yeonsoo/.gradle/caches/transforms-3/90b0fa912ec36bc272ded84b12554381/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.browser:browser:1.5.0] /Users/yeonsoo/.gradle/caches/transforms-3/6b24745faf87ad2e679beee4bb21002f/transformed/browser-1.5.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.webkit:webkit:1.5.0] /Users/yeonsoo/.gradle/caches/transforms-3/6b9afb4dcf5ffdd6612f60f9e8caf50a/transformed/webkit-1.5.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window:window:1.2.0] /Users/yeonsoo/.gradle/caches/transforms-3/d4a6ca5503a19dcea0f3b651be9acab7/transformed/jetified-window-1.2.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.window:window-java:1.2.0] /Users/yeonsoo/.gradle/caches/transforms-3/bff6cdd8f93b9dc439a08ed8543e8b3a/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:17:1-21:12
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/8ea7b6ba0a87dc7bdbcb39e011f9bee4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/0af20b9157ffd6ed54b64f672a9b52e7/transformed/jetified-play-services-auth-api-phone-18.0.2/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/5eef1fb0c482aaa15c11d7f691888c45/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/yeonsoo/.gradle/caches/transforms-3/333775bbe7fef7e802fff0f736679cb4/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/yeonsoo/.gradle/caches/transforms-3/4113b538478a42b5c994dc0e7f2efaff/transformed/jetified-play-services-fido-20.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/yeonsoo/.gradle/caches/transforms-3/6463fec5c3e9500208bc35a92ce43009/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/yeonsoo/.gradle/caches/transforms-3/98754411cd88d47793a844f5373ab02a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/20a78825b106f16ed95a3baa5cf04575/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/3e7759031c2868f8ee12c8e27727622a/transformed/jetified-play-services-measurement-sdk-22.0.2/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.play:integrity:1.2.0] /Users/yeonsoo/.gradle/caches/transforms-3/88ced1afe82875d7c96ba1844a597845/transformed/jetified-integrity-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/03beaa17857d868c569b72a44716541f/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1bd1bb67a75d1d89f69f2695cd12801e/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/808f91fb490fd71bdc5a53890ee701a6/transformed/jetified-play-services-measurement-impl-22.0.2/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/e494c493ac68f240abeea9eba644048b/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/84389b5aa33316352e80f5a168eedb48/transformed/jetified-play-services-measurement-sdk-api-22.0.2/AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-measurement-base:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/522eb581508ab5f6c392391565c845de/transformed/jetified-play-services-measurement-base-22.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/cc94d972f41c18033149c7fe1e5ec320/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] /Users/yeonsoo/.gradle/caches/transforms-3/514a096f8fc6590f6a3ff458308637d6/transformed/jetified-ads-adservices-java-1.0.0-beta05/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/yeonsoo/.gradle/caches/transforms-3/ed2f9dda5d1792bcc8e3c2635084a74f/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/yeonsoo/.gradle/caches/transforms-3/53aeba4acd91f87a3b5f35358b068271/transformed/fragment-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/02ff0f71740a35fa93f0339690f32d52/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/77e0fd6c6e7a6ecee9e787bb2ddf3f23/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.8.1] /Users/yeonsoo/.gradle/caches/transforms-3/653328f7f189065e5d28d2760937bd88/transformed/jetified-activity-1.8.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/a03a9602b7916b552239f9ad917371a4/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/01780acbd21a6457690f91e410d94dc8/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/d4dc99e3d449a2e2731afe68644c1b2e/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/0c70a6f2ec5575755542fa2bc2564ae0/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/b35bf9349cb7d4c91f30640cde52efd9/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/yeonsoo/.gradle/caches/transforms-3/8ba4a578e43744199cc165bba445c8d5/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:15:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/yeonsoo/.gradle/caches/transforms-3/2ff4ec815d75b1d1ce3bcb0a1af4f664/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/c0a008329697a6dda4f07229d5b55706/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/yeonsoo/.gradle/caches/transforms-3/8be979a2512668cd9310143e2e2e5bfb/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/420859c5721af55deb71bdbc670fb168/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/yeonsoo/.gradle/caches/transforms-3/d365c4111559e31b17cb9e9fb5c7a373/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/25d3d7adf554ce1eb644f8ac9d7b1ec4/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.1] /Users/yeonsoo/.gradle/caches/transforms-3/f41476b6df1d004d92c59b9e1ffb379a/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/19502e0effc8e3633f85b7e7b16ef009/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/091a16723a6e318b9f9d526240b917f7/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/yeonsoo/.gradle/caches/transforms-3/4f633d21e6d671e9383c7420b77840dd/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/d036eb966441541c410cc4df5909cdab/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/93ff06eaa9cca30dcc669632880ae880/transformed/jetified-firebase-components-18.0.0/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/yeonsoo/.gradle/caches/transforms-3/34758bf094995e6c40090ba06b061f11/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/yeonsoo/.gradle/caches/transforms-3/8de579a6b3c05f0f7fe32997b098807f/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/yeonsoo/.gradle/caches/transforms-3/b853b92da8bed945f39542d28d785126/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/3e19c9c9bb9b60023b95d68648f6f489/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yeonsoo/.gradle/caches/transforms-3/9951615a76436abc29116e2966a26f6d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/yeonsoo/.gradle/caches/transforms-3/8f70ce624891e96e7f46fe52bc92a16b/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/3d92a74f19f56b4d04253caff164fa9a/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/d773a67419c4b6c132364b042655d413/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/5d8e855bf0475f63c60be78c10a177d1/transformed/jetified-core-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/yeonsoo/.gradle/caches/transforms-3/f12ae8a5a3765672ea2e91e43079b250/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/85a03be1e4e29ff373abe0fa5cf19835/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [io.grpc:grpc-android:1.57.2] /Users/yeonsoo/.gradle/caches/transforms-3/76faf4db7abb5b9c11892859d9dee211/transformed/jetified-grpc-android-1.57.2/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/yeonsoo/EngineeringCompetition/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/yeonsoo/EngineeringCompetition/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/yeonsoo/EngineeringCompetition/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+	package
+		INJECTED from /Users/yeonsoo/EngineeringCompetition/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yeonsoo/EngineeringCompetition/android/app/src/main/AndroidManifest.xml:1:1-52:12
+		INJECTED from /Users/yeonsoo/EngineeringCompetition/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/yeonsoo/EngineeringCompetition/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yeonsoo/EngineeringCompetition/android/app/src/main/AndroidManifest.xml:1:1-52:12
+		INJECTED from /Users/yeonsoo/EngineeringCompetition/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/yeonsoo/EngineeringCompetition/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yeonsoo/EngineeringCompetition/android/app/src/main/AndroidManifest.xml:1:1-52:12
+		INJECTED from /Users/yeonsoo/EngineeringCompetition/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/yeonsoo/EngineeringCompetition/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/yeonsoo/EngineeringCompetition/android/app/src/main/AndroidManifest.xml:2:5-67
+MERGED from /Users/yeonsoo/EngineeringCompetition/android/app/src/main/AndroidManifest.xml:2:5-67
+MERGED from /Users/yeonsoo/EngineeringCompetition/android/app/src/main/AndroidManifest.xml:2:5-67
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/4324ad5dedb53224fea7a287fe8fd9c7/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/4324ad5dedb53224fea7a287fe8fd9c7/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/653a4db389fe268353ed01e63cb8e014/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/653a4db389fe268353ed01e63cb8e014/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1460ae36b6387ac7b586b7e6d318c3d3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1460ae36b6387ac7b586b7e6d318c3d3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/yeonsoo/.gradle/caches/transforms-3/90b0fa912ec36bc272ded84b12554381/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/yeonsoo/.gradle/caches/transforms-3/90b0fa912ec36bc272ded84b12554381/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-measurement:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/20a78825b106f16ed95a3baa5cf04575/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/20a78825b106f16ed95a3baa5cf04575/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/808f91fb490fd71bdc5a53890ee701a6/transformed/jetified-play-services-measurement-impl-22.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/808f91fb490fd71bdc5a53890ee701a6/transformed/jetified-play-services-measurement-impl-22.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/84389b5aa33316352e80f5a168eedb48/transformed/jetified-play-services-measurement-sdk-api-22.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/84389b5aa33316352e80f5a168eedb48/transformed/jetified-play-services-measurement-sdk-api-22.0.2/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/yeonsoo/EngineeringCompetition/android/app/src/main/AndroidManifest.xml:2:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/yeonsoo/EngineeringCompetition/android/app/src/main/AndroidManifest.xml:4:5-79
+	android:name
+		ADDED from /Users/yeonsoo/EngineeringCompetition/android/app/src/main/AndroidManifest.xml:4:22-76
+queries
+ADDED from /Users/yeonsoo/EngineeringCompetition/android/app/src/main/AndroidManifest.xml:46:5-51:15
+intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
+ADDED from /Users/yeonsoo/EngineeringCompetition/android/app/src/main/AndroidManifest.xml:47:9-50:18
+action#android.intent.action.PROCESS_TEXT
+ADDED from /Users/yeonsoo/EngineeringCompetition/android/app/src/main/AndroidManifest.xml:48:13-72
+	android:name
+		ADDED from /Users/yeonsoo/EngineeringCompetition/android/app/src/main/AndroidManifest.xml:48:21-70
+data
+ADDED from /Users/yeonsoo/EngineeringCompetition/android/app/src/main/AndroidManifest.xml:49:13-50
+	android:mimeType
+		ADDED from /Users/yeonsoo/EngineeringCompetition/android/app/src/main/AndroidManifest.xml:49:19-48
+uses-sdk
+INJECTED from /Users/yeonsoo/EngineeringCompetition/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/yeonsoo/EngineeringCompetition/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/yeonsoo/EngineeringCompetition/android/app/src/main/AndroidManifest.xml
+MERGED from [:cloud_firestore] /Users/yeonsoo/EngineeringCompetition/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:cloud_firestore] /Users/yeonsoo/EngineeringCompetition/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_auth] /Users/yeonsoo/EngineeringCompetition/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_auth] /Users/yeonsoo/EngineeringCompetition/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /Users/yeonsoo/EngineeringCompetition/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /Users/yeonsoo/EngineeringCompetition/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] /Users/yeonsoo/EngineeringCompetition/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] /Users/yeonsoo/EngineeringCompetition/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:webview_flutter_android] /Users/yeonsoo/EngineeringCompetition/build/webview_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:webview_flutter_android] /Users/yeonsoo/EngineeringCompetition/build/webview_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/4324ad5dedb53224fea7a287fe8fd9c7/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/4324ad5dedb53224fea7a287fe8fd9c7/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-analytics:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/c8d6c0c0cef9f84b7fce726b55a809ee/transformed/jetified-firebase-analytics-22.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/c8d6c0c0cef9f84b7fce726b55a809ee/transformed/jetified-firebase-analytics-22.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/653a4db389fe268353ed01e63cb8e014/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/653a4db389fe268353ed01e63cb8e014/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1460ae36b6387ac7b586b7e6d318c3d3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1460ae36b6387ac7b586b7e6d318c3d3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/0881bba60691c953597fedb9c2d806b2/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/0881bba60691c953597fedb9c2d806b2/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:21:5-23:151
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/yeonsoo/.gradle/caches/transforms-3/be7f94af917da364eaf769326b162494/transformed/jetified-credentials-1.2.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/yeonsoo/.gradle/caches/transforms-3/be7f94af917da364eaf769326b162494/transformed/jetified-credentials-1.2.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/yeonsoo/.gradle/caches/transforms-3/92511f81c416b07bbb7344fa250d2feb/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:21:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/yeonsoo/.gradle/caches/transforms-3/92511f81c416b07bbb7344fa250d2feb/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/yeonsoo/.gradle/caches/transforms-3/70a534401139ee2c4829f66a77b65f1f/transformed/jetified-googleid-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/yeonsoo/.gradle/caches/transforms-3/70a534401139ee2c4829f66a77b65f1f/transformed/jetified-googleid-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/yeonsoo/.gradle/caches/transforms-3/90b0fa912ec36bc272ded84b12554381/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/yeonsoo/.gradle/caches/transforms-3/90b0fa912ec36bc272ded84b12554381/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.5.0] /Users/yeonsoo/.gradle/caches/transforms-3/6b24745faf87ad2e679beee4bb21002f/transformed/browser-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.5.0] /Users/yeonsoo/.gradle/caches/transforms-3/6b24745faf87ad2e679beee4bb21002f/transformed/browser-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.5.0] /Users/yeonsoo/.gradle/caches/transforms-3/6b9afb4dcf5ffdd6612f60f9e8caf50a/transformed/webkit-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.5.0] /Users/yeonsoo/.gradle/caches/transforms-3/6b9afb4dcf5ffdd6612f60f9e8caf50a/transformed/webkit-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.2.0] /Users/yeonsoo/.gradle/caches/transforms-3/d4a6ca5503a19dcea0f3b651be9acab7/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.2.0] /Users/yeonsoo/.gradle/caches/transforms-3/d4a6ca5503a19dcea0f3b651be9acab7/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window-java:1.2.0] /Users/yeonsoo/.gradle/caches/transforms-3/bff6cdd8f93b9dc439a08ed8543e8b3a/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.window:window-java:1.2.0] /Users/yeonsoo/.gradle/caches/transforms-3/bff6cdd8f93b9dc439a08ed8543e8b3a/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/8ea7b6ba0a87dc7bdbcb39e011f9bee4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/8ea7b6ba0a87dc7bdbcb39e011f9bee4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/0af20b9157ffd6ed54b64f672a9b52e7/transformed/jetified-play-services-auth-api-phone-18.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/0af20b9157ffd6ed54b64f672a9b52e7/transformed/jetified-play-services-auth-api-phone-18.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/5eef1fb0c482aaa15c11d7f691888c45/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/5eef1fb0c482aaa15c11d7f691888c45/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/yeonsoo/.gradle/caches/transforms-3/333775bbe7fef7e802fff0f736679cb4/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/yeonsoo/.gradle/caches/transforms-3/333775bbe7fef7e802fff0f736679cb4/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/yeonsoo/.gradle/caches/transforms-3/4113b538478a42b5c994dc0e7f2efaff/transformed/jetified-play-services-fido-20.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/yeonsoo/.gradle/caches/transforms-3/4113b538478a42b5c994dc0e7f2efaff/transformed/jetified-play-services-fido-20.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/yeonsoo/.gradle/caches/transforms-3/6463fec5c3e9500208bc35a92ce43009/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/yeonsoo/.gradle/caches/transforms-3/6463fec5c3e9500208bc35a92ce43009/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/yeonsoo/.gradle/caches/transforms-3/98754411cd88d47793a844f5373ab02a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/yeonsoo/.gradle/caches/transforms-3/98754411cd88d47793a844f5373ab02a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-measurement:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/20a78825b106f16ed95a3baa5cf04575/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/20a78825b106f16ed95a3baa5cf04575/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/3e7759031c2868f8ee12c8e27727622a/transformed/jetified-play-services-measurement-sdk-22.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/3e7759031c2868f8ee12c8e27727622a/transformed/jetified-play-services-measurement-sdk-22.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.play:integrity:1.2.0] /Users/yeonsoo/.gradle/caches/transforms-3/88ced1afe82875d7c96ba1844a597845/transformed/jetified-integrity-1.2.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.2.0] /Users/yeonsoo/.gradle/caches/transforms-3/88ced1afe82875d7c96ba1844a597845/transformed/jetified-integrity-1.2.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/03beaa17857d868c569b72a44716541f/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/03beaa17857d868c569b72a44716541f/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1bd1bb67a75d1d89f69f2695cd12801e/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1bd1bb67a75d1d89f69f2695cd12801e/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/808f91fb490fd71bdc5a53890ee701a6/transformed/jetified-play-services-measurement-impl-22.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/808f91fb490fd71bdc5a53890ee701a6/transformed/jetified-play-services-measurement-impl-22.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/e494c493ac68f240abeea9eba644048b/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/e494c493ac68f240abeea9eba644048b/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/84389b5aa33316352e80f5a168eedb48/transformed/jetified-play-services-measurement-sdk-api-22.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/84389b5aa33316352e80f5a168eedb48/transformed/jetified-play-services-measurement-sdk-api-22.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/522eb581508ab5f6c392391565c845de/transformed/jetified-play-services-measurement-base-22.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/522eb581508ab5f6c392391565c845de/transformed/jetified-play-services-measurement-base-22.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/cc94d972f41c18033149c7fe1e5ec320/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/cc94d972f41c18033149c7fe1e5ec320/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] /Users/yeonsoo/.gradle/caches/transforms-3/514a096f8fc6590f6a3ff458308637d6/transformed/jetified-ads-adservices-java-1.0.0-beta05/AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] /Users/yeonsoo/.gradle/caches/transforms-3/514a096f8fc6590f6a3ff458308637d6/transformed/jetified-ads-adservices-java-1.0.0-beta05/AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/yeonsoo/.gradle/caches/transforms-3/ed2f9dda5d1792bcc8e3c2635084a74f/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/yeonsoo/.gradle/caches/transforms-3/ed2f9dda5d1792bcc8e3c2635084a74f/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/yeonsoo/.gradle/caches/transforms-3/53aeba4acd91f87a3b5f35358b068271/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/yeonsoo/.gradle/caches/transforms-3/53aeba4acd91f87a3b5f35358b068271/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/02ff0f71740a35fa93f0339690f32d52/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/02ff0f71740a35fa93f0339690f32d52/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/77e0fd6c6e7a6ecee9e787bb2ddf3f23/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/77e0fd6c6e7a6ecee9e787bb2ddf3f23/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.1] /Users/yeonsoo/.gradle/caches/transforms-3/653328f7f189065e5d28d2760937bd88/transformed/jetified-activity-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.1] /Users/yeonsoo/.gradle/caches/transforms-3/653328f7f189065e5d28d2760937bd88/transformed/jetified-activity-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/a03a9602b7916b552239f9ad917371a4/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/a03a9602b7916b552239f9ad917371a4/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/01780acbd21a6457690f91e410d94dc8/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/01780acbd21a6457690f91e410d94dc8/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/d4dc99e3d449a2e2731afe68644c1b2e/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/d4dc99e3d449a2e2731afe68644c1b2e/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/0c70a6f2ec5575755542fa2bc2564ae0/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/0c70a6f2ec5575755542fa2bc2564ae0/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/b35bf9349cb7d4c91f30640cde52efd9/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/b35bf9349cb7d4c91f30640cde52efd9/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/yeonsoo/.gradle/caches/transforms-3/8ba4a578e43744199cc165bba445c8d5/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/yeonsoo/.gradle/caches/transforms-3/8ba4a578e43744199cc165bba445c8d5/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:17:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/yeonsoo/.gradle/caches/transforms-3/2ff4ec815d75b1d1ce3bcb0a1af4f664/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/yeonsoo/.gradle/caches/transforms-3/2ff4ec815d75b1d1ce3bcb0a1af4f664/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/c0a008329697a6dda4f07229d5b55706/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/c0a008329697a6dda4f07229d5b55706/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/yeonsoo/.gradle/caches/transforms-3/8be979a2512668cd9310143e2e2e5bfb/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/yeonsoo/.gradle/caches/transforms-3/8be979a2512668cd9310143e2e2e5bfb/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/420859c5721af55deb71bdbc670fb168/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/420859c5721af55deb71bdbc670fb168/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/yeonsoo/.gradle/caches/transforms-3/d365c4111559e31b17cb9e9fb5c7a373/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/yeonsoo/.gradle/caches/transforms-3/d365c4111559e31b17cb9e9fb5c7a373/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/25d3d7adf554ce1eb644f8ac9d7b1ec4/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/25d3d7adf554ce1eb644f8ac9d7b1ec4/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/yeonsoo/.gradle/caches/transforms-3/f41476b6df1d004d92c59b9e1ffb379a/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/yeonsoo/.gradle/caches/transforms-3/f41476b6df1d004d92c59b9e1ffb379a/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/19502e0effc8e3633f85b7e7b16ef009/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/19502e0effc8e3633f85b7e7b16ef009/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/091a16723a6e318b9f9d526240b917f7/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/091a16723a6e318b9f9d526240b917f7/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/yeonsoo/.gradle/caches/transforms-3/4f633d21e6d671e9383c7420b77840dd/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/yeonsoo/.gradle/caches/transforms-3/4f633d21e6d671e9383c7420b77840dd/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/d036eb966441541c410cc4df5909cdab/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/d036eb966441541c410cc4df5909cdab/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/93ff06eaa9cca30dcc669632880ae880/transformed/jetified-firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/93ff06eaa9cca30dcc669632880ae880/transformed/jetified-firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/yeonsoo/.gradle/caches/transforms-3/34758bf094995e6c40090ba06b061f11/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/yeonsoo/.gradle/caches/transforms-3/34758bf094995e6c40090ba06b061f11/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/yeonsoo/.gradle/caches/transforms-3/8de579a6b3c05f0f7fe32997b098807f/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/yeonsoo/.gradle/caches/transforms-3/8de579a6b3c05f0f7fe32997b098807f/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/yeonsoo/.gradle/caches/transforms-3/b853b92da8bed945f39542d28d785126/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/yeonsoo/.gradle/caches/transforms-3/b853b92da8bed945f39542d28d785126/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/3e19c9c9bb9b60023b95d68648f6f489/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/3e19c9c9bb9b60023b95d68648f6f489/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yeonsoo/.gradle/caches/transforms-3/9951615a76436abc29116e2966a26f6d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/yeonsoo/.gradle/caches/transforms-3/9951615a76436abc29116e2966a26f6d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/yeonsoo/.gradle/caches/transforms-3/8f70ce624891e96e7f46fe52bc92a16b/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/yeonsoo/.gradle/caches/transforms-3/8f70ce624891e96e7f46fe52bc92a16b/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/3d92a74f19f56b4d04253caff164fa9a/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/3d92a74f19f56b4d04253caff164fa9a/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/d773a67419c4b6c132364b042655d413/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/d773a67419c4b6c132364b042655d413/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/5d8e855bf0475f63c60be78c10a177d1/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/5d8e855bf0475f63c60be78c10a177d1/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/yeonsoo/.gradle/caches/transforms-3/f12ae8a5a3765672ea2e91e43079b250/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/yeonsoo/.gradle/caches/transforms-3/f12ae8a5a3765672ea2e91e43079b250/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/85a03be1e4e29ff373abe0fa5cf19835/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/85a03be1e4e29ff373abe0fa5cf19835/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.57.2] /Users/yeonsoo/.gradle/caches/transforms-3/76faf4db7abb5b9c11892859d9dee211/transformed/jetified-grpc-android-1.57.2/AndroidManifest.xml:5:5-44
+MERGED from [io.grpc:grpc-android:1.57.2] /Users/yeonsoo/.gradle/caches/transforms-3/76faf4db7abb5b9c11892859d9dee211/transformed/jetified-grpc-android-1.57.2/AndroidManifest.xml:5:5-44
+INJECTED from /Users/yeonsoo/EngineeringCompetition/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/yeonsoo/EngineeringCompetition/android/app/src/debug/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:23:9-148
+	android:targetSdkVersion
+		INJECTED from /Users/yeonsoo/EngineeringCompetition/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yeonsoo/EngineeringCompetition/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/yeonsoo/EngineeringCompetition/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yeonsoo/EngineeringCompetition/android/app/src/debug/AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:cloud_firestore] /Users/yeonsoo/EngineeringCompetition/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_auth] /Users/yeonsoo/EngineeringCompetition/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_auth] /Users/yeonsoo/EngineeringCompetition/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /Users/yeonsoo/EngineeringCompetition/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /Users/yeonsoo/EngineeringCompetition/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/4324ad5dedb53224fea7a287fe8fd9c7/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/4324ad5dedb53224fea7a287fe8fd9c7/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/653a4db389fe268353ed01e63cb8e014/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:34:9-40:19
+MERGED from [com.google.android.gms:play-services-measurement-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/653a4db389fe268353ed01e63cb8e014/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:34:9-40:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1460ae36b6387ac7b586b7e6d318c3d3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1460ae36b6387ac7b586b7e6d318c3d3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/0881bba60691c953597fedb9c2d806b2/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/0881bba60691c953597fedb9c2d806b2/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1bd1bb67a75d1d89f69f2695cd12801e/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1bd1bb67a75d1d89f69f2695cd12801e/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-firestore:25.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/4324ad5dedb53224fea7a287fe8fd9c7/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:16:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1bd1bb67a75d1d89f69f2695cd12801e/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1bd1bb67a75d1d89f69f2695cd12801e/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [:cloud_firestore] /Users/yeonsoo/EngineeringCompetition/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
+ADDED from [:cloud_firestore] /Users/yeonsoo/EngineeringCompetition/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:cloud_firestore] /Users/yeonsoo/EngineeringCompetition/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:cloud_firestore] /Users/yeonsoo/EngineeringCompetition/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-134
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
+ADDED from [:firebase_auth] /Users/yeonsoo/EngineeringCompetition/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_auth] /Users/yeonsoo/EngineeringCompetition/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_auth] /Users/yeonsoo/EngineeringCompetition/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /Users/yeonsoo/EngineeringCompetition/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_core] /Users/yeonsoo/EngineeringCompetition/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/yeonsoo/EngineeringCompetition/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] /Users/yeonsoo/EngineeringCompetition/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
+	android:exported
+		ADDED from [:url_launcher_android] /Users/yeonsoo/EngineeringCompetition/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+	android:theme
+		ADDED from [:url_launcher_android] /Users/yeonsoo/EngineeringCompetition/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
+	android:name
+		ADDED from [:url_launcher_android] /Users/yeonsoo/EngineeringCompetition/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-firestore:25.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/4324ad5dedb53224fea7a287fe8fd9c7/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/653a4db389fe268353ed01e63cb8e014/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/653a4db389fe268353ed01e63cb8e014/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1460ae36b6387ac7b586b7e6d318c3d3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1460ae36b6387ac7b586b7e6d318c3d3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/yeonsoo/.gradle/caches/transforms-3/90b0fa912ec36bc272ded84b12554381/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/yeonsoo/.gradle/caches/transforms-3/90b0fa912ec36bc272ded84b12554381/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.gms:play-services-measurement:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/20a78825b106f16ed95a3baa5cf04575/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/20a78825b106f16ed95a3baa5cf04575/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/808f91fb490fd71bdc5a53890ee701a6/transformed/jetified-play-services-measurement-impl-22.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/808f91fb490fd71bdc5a53890ee701a6/transformed/jetified-play-services-measurement-impl-22.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/84389b5aa33316352e80f5a168eedb48/transformed/jetified-play-services-measurement-sdk-api-22.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/84389b5aa33316352e80f5a168eedb48/transformed/jetified-play-services-measurement-sdk-api-22.0.2/AndroidManifest.xml:24:5-79
+MERGED from [io.grpc:grpc-android:1.57.2] /Users/yeonsoo/.gradle/caches/transforms-3/76faf4db7abb5b9c11892859d9dee211/transformed/jetified-grpc-android-1.57.2/AndroidManifest.xml:7:5-79
+MERGED from [io.grpc:grpc-android:1.57.2] /Users/yeonsoo/.gradle/caches/transforms-3/76faf4db7abb5b9c11892859d9dee211/transformed/jetified-grpc-android-1.57.2/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/4324ad5dedb53224fea7a287fe8fd9c7/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:10:22-76
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore:25.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/4324ad5dedb53224fea7a287fe8fd9c7/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:25.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/4324ad5dedb53224fea7a287fe8fd9c7/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/4324ad5dedb53224fea7a287fe8fd9c7/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:18:17-122
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:25.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/4324ad5dedb53224fea7a287fe8fd9c7/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:25.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/4324ad5dedb53224fea7a287fe8fd9c7/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/4324ad5dedb53224fea7a287fe8fd9c7/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:21:17-111
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/653a4db389fe268353ed01e63cb8e014/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/20a78825b106f16ed95a3baa5cf04575/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/20a78825b106f16ed95a3baa5cf04575/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/808f91fb490fd71bdc5a53890ee701a6/transformed/jetified-play-services-measurement-impl-22.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/808f91fb490fd71bdc5a53890ee701a6/transformed/jetified-play-services-measurement-impl-22.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/84389b5aa33316352e80f5a168eedb48/transformed/jetified-play-services-measurement-sdk-api-22.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/84389b5aa33316352e80f5a168eedb48/transformed/jetified-play-services-measurement-sdk-api-22.0.2/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/653a4db389fe268353ed01e63cb8e014/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/653a4db389fe268353ed01e63cb8e014/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/808f91fb490fd71bdc5a53890ee701a6/transformed/jetified-play-services-measurement-impl-22.0.2/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/808f91fb490fd71bdc5a53890ee701a6/transformed/jetified-play-services-measurement-impl-22.0.2/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/e494c493ac68f240abeea9eba644048b/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/e494c493ac68f240abeea9eba644048b/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/84389b5aa33316352e80f5a168eedb48/transformed/jetified-play-services-measurement-sdk-api-22.0.2/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/84389b5aa33316352e80f5a168eedb48/transformed/jetified-play-services-measurement-sdk-api-22.0.2/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/653a4db389fe268353ed01e63cb8e014/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:25:22-76
+uses-permission#android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+ADDED from [com.google.android.gms:play-services-measurement-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/653a4db389fe268353ed01e63cb8e014/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:26:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/84389b5aa33316352e80f5a168eedb48/transformed/jetified-play-services-measurement-sdk-api-22.0.2/AndroidManifest.xml:27:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/84389b5aa33316352e80f5a168eedb48/transformed/jetified-play-services-measurement-sdk-api-22.0.2/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/653a4db389fe268353ed01e63cb8e014/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:26:22-85
+uses-permission#android.permission.ACCESS_ADSERVICES_AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/653a4db389fe268353ed01e63cb8e014/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:27:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/84389b5aa33316352e80f5a168eedb48/transformed/jetified-play-services-measurement-sdk-api-22.0.2/AndroidManifest.xml:28:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/84389b5aa33316352e80f5a168eedb48/transformed/jetified-play-services-measurement-sdk-api-22.0.2/AndroidManifest.xml:28:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/653a4db389fe268353ed01e63cb8e014/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:27:22-79
+property
+ADDED from [com.google.android.gms:play-services-measurement-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/653a4db389fe268353ed01e63cb8e014/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:30:9-32:61
+	android:resource
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/653a4db389fe268353ed01e63cb8e014/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:32:13-58
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/653a4db389fe268353ed01e63cb8e014/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:31:13-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/653a4db389fe268353ed01e63cb8e014/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:37:13-39:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/653a4db389fe268353ed01e63cb8e014/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:39:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/653a4db389fe268353ed01e63cb8e014/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:38:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:18.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1460ae36b6387ac7b586b7e6d318c3d3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1460ae36b6387ac7b586b7e6d318c3d3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1460ae36b6387ac7b586b7e6d318c3d3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:18.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1460ae36b6387ac7b586b7e6d318c3d3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1460ae36b6387ac7b586b7e6d318c3d3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1460ae36b6387ac7b586b7e6d318c3d3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:19:17-127
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/0881bba60691c953597fedb9c2d806b2/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/0881bba60691c953597fedb9c2d806b2/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/0881bba60691c953597fedb9c2d806b2/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:39:27-75
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:53:13-63:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/9111d49158b55ca90ade61830dae46e8/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:70:17-109
+service#androidx.credentials.playservices.CredentialProviderMetadataHolder
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/yeonsoo/.gradle/caches/transforms-3/92511f81c416b07bbb7344fa250d2feb/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:24:9-32:19
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/yeonsoo/.gradle/caches/transforms-3/92511f81c416b07bbb7344fa250d2feb/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:26:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/yeonsoo/.gradle/caches/transforms-3/92511f81c416b07bbb7344fa250d2feb/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/yeonsoo/.gradle/caches/transforms-3/92511f81c416b07bbb7344fa250d2feb/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:28:13-60
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/yeonsoo/.gradle/caches/transforms-3/92511f81c416b07bbb7344fa250d2feb/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:25:13-94
+meta-data#androidx.credentials.CREDENTIAL_PROVIDER_KEY
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/yeonsoo/.gradle/caches/transforms-3/92511f81c416b07bbb7344fa250d2feb/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:29:13-31:104
+	android:value
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/yeonsoo/.gradle/caches/transforms-3/92511f81c416b07bbb7344fa250d2feb/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:31:17-101
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/yeonsoo/.gradle/caches/transforms-3/92511f81c416b07bbb7344fa250d2feb/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:30:17-76
+activity#androidx.credentials.playservices.HiddenActivity
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/yeonsoo/.gradle/caches/transforms-3/92511f81c416b07bbb7344fa250d2feb/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:34:9-41:20
+	android:fitsSystemWindows
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/yeonsoo/.gradle/caches/transforms-3/92511f81c416b07bbb7344fa250d2feb/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:39:13-45
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/yeonsoo/.gradle/caches/transforms-3/92511f81c416b07bbb7344fa250d2feb/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/yeonsoo/.gradle/caches/transforms-3/92511f81c416b07bbb7344fa250d2feb/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:38:13-37
+	android:configChanges
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/yeonsoo/.gradle/caches/transforms-3/92511f81c416b07bbb7344fa250d2feb/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:36:13-87
+	android:theme
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/yeonsoo/.gradle/caches/transforms-3/92511f81c416b07bbb7344fa250d2feb/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:40:13-48
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/yeonsoo/.gradle/caches/transforms-3/92511f81c416b07bbb7344fa250d2feb/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:35:13-76
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/yeonsoo/.gradle/caches/transforms-3/90b0fa912ec36bc272ded84b12554381/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:9:5-98
+	android:name
+		ADDED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/yeonsoo/.gradle/caches/transforms-3/90b0fa912ec36bc272ded84b12554381/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:9:22-95
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.2.0] /Users/yeonsoo/.gradle/caches/transforms-3/d4a6ca5503a19dcea0f3b651be9acab7/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /Users/yeonsoo/.gradle/caches/transforms-3/d4a6ca5503a19dcea0f3b651be9acab7/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /Users/yeonsoo/.gradle/caches/transforms-3/d4a6ca5503a19dcea0f3b651be9acab7/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.2.0] /Users/yeonsoo/.gradle/caches/transforms-3/d4a6ca5503a19dcea0f3b651be9acab7/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /Users/yeonsoo/.gradle/caches/transforms-3/d4a6ca5503a19dcea0f3b651be9acab7/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /Users/yeonsoo/.gradle/caches/transforms-3/d4a6ca5503a19dcea0f3b651be9acab7/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/8ea7b6ba0a87dc7bdbcb39e011f9bee4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/8ea7b6ba0a87dc7bdbcb39e011f9bee4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/8ea7b6ba0a87dc7bdbcb39e011f9bee4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/8ea7b6ba0a87dc7bdbcb39e011f9bee4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/8ea7b6ba0a87dc7bdbcb39e011f9bee4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/8ea7b6ba0a87dc7bdbcb39e011f9bee4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/8ea7b6ba0a87dc7bdbcb39e011f9bee4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/8ea7b6ba0a87dc7bdbcb39e011f9bee4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/8ea7b6ba0a87dc7bdbcb39e011f9bee4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/8ea7b6ba0a87dc7bdbcb39e011f9bee4/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/yeonsoo/.gradle/caches/transforms-3/98754411cd88d47793a844f5373ab02a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/yeonsoo/.gradle/caches/transforms-3/98754411cd88d47793a844f5373ab02a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/yeonsoo/.gradle/caches/transforms-3/98754411cd88d47793a844f5373ab02a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/yeonsoo/.gradle/caches/transforms-3/98754411cd88d47793a844f5373ab02a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/20a78825b106f16ed95a3baa5cf04575/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/808f91fb490fd71bdc5a53890ee701a6/transformed/jetified-play-services-measurement-impl-22.0.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/808f91fb490fd71bdc5a53890ee701a6/transformed/jetified-play-services-measurement-impl-22.0.2/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/20a78825b106f16ed95a3baa5cf04575/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/20a78825b106f16ed95a3baa5cf04575/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/20a78825b106f16ed95a3baa5cf04575/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/20a78825b106f16ed95a3baa5cf04575/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/20a78825b106f16ed95a3baa5cf04575/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/20a78825b106f16ed95a3baa5cf04575/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/20a78825b106f16ed95a3baa5cf04575/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/20a78825b106f16ed95a3baa5cf04575/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/20a78825b106f16ed95a3baa5cf04575/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/20a78825b106f16ed95a3baa5cf04575/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/20a78825b106f16ed95a3baa5cf04575/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/20a78825b106f16ed95a3baa5cf04575/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/20a78825b106f16ed95a3baa5cf04575/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.0.2] /Users/yeonsoo/.gradle/caches/transforms-3/20a78825b106f16ed95a3baa5cf04575/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:40:13-87
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1bd1bb67a75d1d89f69f2695cd12801e/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1bd1bb67a75d1d89f69f2695cd12801e/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1bd1bb67a75d1d89f69f2695cd12801e/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1bd1bb67a75d1d89f69f2695cd12801e/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1bd1bb67a75d1d89f69f2695cd12801e/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1bd1bb67a75d1d89f69f2695cd12801e/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1bd1bb67a75d1d89f69f2695cd12801e/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1bd1bb67a75d1d89f69f2695cd12801e/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/yeonsoo/.gradle/caches/transforms-3/1bd1bb67a75d1d89f69f2695cd12801e/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+uses-library#android.ext.adservices
+ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/yeonsoo/.gradle/caches/transforms-3/ed2f9dda5d1792bcc8e3c2635084a74f/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/yeonsoo/.gradle/caches/transforms-3/ed2f9dda5d1792bcc8e3c2635084a74f/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/yeonsoo/.gradle/caches/transforms-3/ed2f9dda5d1792bcc8e3c2635084a74f/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/yeonsoo/.gradle/caches/transforms-3/8be979a2512668cd9310143e2e2e5bfb/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/yeonsoo/.gradle/caches/transforms-3/8be979a2512668cd9310143e2e2e5bfb/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/yeonsoo/.gradle/caches/transforms-3/8be979a2512668cd9310143e2e2e5bfb/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/yeonsoo/.gradle/caches/transforms-3/f41476b6df1d004d92c59b9e1ffb379a/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/yeonsoo/.gradle/caches/transforms-3/f41476b6df1d004d92c59b9e1ffb379a/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/yeonsoo/.gradle/caches/transforms-3/f41476b6df1d004d92c59b9e1ffb379a/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.example.kakaomapuse.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/yeonsoo/.gradle/caches/transforms-3/f41476b6df1d004d92c59b9e1ffb379a/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/yeonsoo/.gradle/caches/transforms-3/f41476b6df1d004d92c59b9e1ffb379a/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/yeonsoo/.gradle/caches/transforms-3/f41476b6df1d004d92c59b9e1ffb379a/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/yeonsoo/.gradle/caches/transforms-3/f41476b6df1d004d92c59b9e1ffb379a/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/yeonsoo/.gradle/caches/transforms-3/f41476b6df1d004d92c59b9e1ffb379a/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.example.kakaomapuse.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/yeonsoo/.gradle/caches/transforms-3/f41476b6df1d004d92c59b9e1ffb379a/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/yeonsoo/.gradle/caches/transforms-3/f41476b6df1d004d92c59b9e1ffb379a/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/091a16723a6e318b9f9d526240b917f7/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/yeonsoo/.gradle/caches/transforms-3/34758bf094995e6c40090ba06b061f11/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/yeonsoo/.gradle/caches/transforms-3/34758bf094995e6c40090ba06b061f11/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/yeonsoo/.gradle/caches/transforms-3/8de579a6b3c05f0f7fe32997b098807f/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/yeonsoo/.gradle/caches/transforms-3/8de579a6b3c05f0f7fe32997b098807f/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/091a16723a6e318b9f9d526240b917f7/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/091a16723a6e318b9f9d526240b917f7/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/091a16723a6e318b9f9d526240b917f7/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/091a16723a6e318b9f9d526240b917f7/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/091a16723a6e318b9f9d526240b917f7/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/091a16723a6e318b9f9d526240b917f7/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/yeonsoo/.gradle/caches/transforms-3/091a16723a6e318b9f9d526240b917f7/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/yeonsoo/.gradle/caches/transforms-3/34758bf094995e6c40090ba06b061f11/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/yeonsoo/.gradle/caches/transforms-3/34758bf094995e6c40090ba06b061f11/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/yeonsoo/.gradle/caches/transforms-3/34758bf094995e6c40090ba06b061f11/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/yeonsoo/.gradle/caches/transforms-3/34758bf094995e6c40090ba06b061f11/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/yeonsoo/.gradle/caches/transforms-3/34758bf094995e6c40090ba06b061f11/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/yeonsoo/.gradle/caches/transforms-3/34758bf094995e6c40090ba06b061f11/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/yeonsoo/.gradle/caches/transforms-3/34758bf094995e6c40090ba06b061f11/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/yeonsoo/.gradle/caches/transforms-3/34758bf094995e6c40090ba06b061f11/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/yeonsoo/.gradle/caches/transforms-3/34758bf094995e6c40090ba06b061f11/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/yeonsoo/.gradle/caches/transforms-3/34758bf094995e6c40090ba06b061f11/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/yeonsoo/.gradle/caches/transforms-3/34758bf094995e6c40090ba06b061f11/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/yeonsoo/.gradle/caches/transforms-3/34758bf094995e6c40090ba06b061f11/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/yeonsoo/.gradle/caches/transforms-3/34758bf094995e6c40090ba06b061f11/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/yeonsoo/.gradle/caches/transforms-3/34758bf094995e6c40090ba06b061f11/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/yeonsoo/.gradle/caches/transforms-3/34758bf094995e6c40090ba06b061f11/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/yeonsoo/.gradle/caches/transforms-3/34758bf094995e6c40090ba06b061f11/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/yeonsoo/.gradle/caches/transforms-3/34758bf094995e6c40090ba06b061f11/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/yeonsoo/.gradle/caches/transforms-3/34758bf094995e6c40090ba06b061f11/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/yeonsoo/.gradle/caches/transforms-3/34758bf094995e6c40090ba06b061f11/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/yeonsoo/.gradle/caches/transforms-3/34758bf094995e6c40090ba06b061f11/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/yeonsoo/.gradle/caches/transforms-3/34758bf094995e6c40090ba06b061f11/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92

@@ -1,0 +1,7 @@
+<resources>
+    <string name="google_app_id">1:744016794906:android:283cc9831b295fb02148a3</string> <!-- From google-services.json -->
+    <string name="gcm_defaultSenderId">744016794906</string> <!-- From google-services.json -->
+    <string name="google_api_key">AIzaSyA7whH_BVbmYBxdXm_bAitfQt0fLJjGdb0</string> <!-- From google-services.json -->
+    <string name="google_crash_reporting_api_key">YOUR_CRASH_REPORTING_API_KEY</string> <!-- From google-services.json -->
+    <string name="project_id">engineeringcompetition-9d2f6</string> <!-- From google-services.json -->
+</resources>
