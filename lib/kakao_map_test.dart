@@ -3,12 +3,14 @@ import 'package:kakaomap_webview/kakaomap_webview.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'dart:convert';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'mypage.dart'; // MyPage 파일 임포트
 
 import 'map_screen.dart';
 
 final String kakaoMapKey = dotenv.env['KAKAO_MAP_KEY']!;
 final String kakaoRestApiKey = dotenv.env['KAKAO_REST_API_KEY']!;
-
 
 void main() {
   runApp(MyApp());
@@ -41,10 +43,61 @@ class _KakaoMapTestState extends State<KakaoMapTest> {
   String centerAddress = '';
   bool isLoading = false;
 
+  String? userName;
+
+  @override
+  void initState() {
+    super.initState();
+    fetchUserName();
+  }
+
+  Future<void> fetchUserName() async {
+    User? user = FirebaseAuth.instance.currentUser;
+    if (user != null) {
+      DocumentSnapshot userDoc =
+          await FirebaseFirestore.instance.collection('users').doc(user.uid).get();
+      if (userDoc.exists) {
+        setState(() {
+          userName = userDoc['name'];
+        });
+      }
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
+    User? user = FirebaseAuth.instance.currentUser;
+
     return Scaffold(
       appBar: AppBar(title: Text('여러 장소 지도 표시')),
+      drawer: Drawer(
+        child: ListView(
+          padding: EdgeInsets.zero,
+          children: <Widget>[
+            UserAccountsDrawerHeader(
+              accountName: Text(userName ?? 'User Name'),
+              accountEmail: null,
+              currentAccountPicture: CircleAvatar(
+                backgroundColor: Colors.white,
+                child: Text(
+                  userName != null ? userName![0] : 'U',
+                  style: TextStyle(fontSize: 40.0),
+                ),
+              ),
+            ),
+            ListTile(
+              title: Text('My Page'),
+              onTap: () {
+                Navigator.pop(context); // 사이드바 닫기
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => MyPage()),
+                ); // MyPage 화면으로 이동
+              },
+            ),
+          ],
+        ),
+      ),
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -91,6 +144,8 @@ class _KakaoMapTestState extends State<KakaoMapTest> {
                       subtitle: Text(searchResults[i][index]['address_name']),
                       onTap: () {
                         setState(() {
+                          // 선택된 장소 이름을 TextField에 반영
+                          locationControllers[i].text = searchResults[i][index]['place_name'];
                           selectedIndices[i] = index;
                         });
                       },
